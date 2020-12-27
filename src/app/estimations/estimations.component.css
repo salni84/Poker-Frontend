@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  background-color: darkgreen;
+}
+
+.result {
+  font-size: 20px;
+  width: 30px;
+  margin-left: 20px;
+  margin-top: 10px;
+  color: yellow;
+  font-weight: bold;
+}
+
+.average {
+  display: flex;
+}
+
+.votes {
+  font-size: 20px;
+  width: 30px;
+  margin-top: 10px;
+  color: white;
+  font-weight: bold;
+}
+
+.averageButton {
+  height: 40px;
+}

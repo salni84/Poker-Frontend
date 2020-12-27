@@ -1,0 +1,78 @@
+.container {
+  background-color: darkgreen;
+}
+
+.cards {
+  display: flex;
+}
+
+.card {
+  width: 180px;
+  height: 250px;
+  background-image: url("../../assets/images/playcard.png");
+  background-size: cover;
+  margin: 20px;
+  font-size: 80px;
+  font-family: "Gujarati MT", serif;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  cursor: pointer;
+}
+
+mat-card:hover {
+  color: red;
+  border-color: yellow;
+  border-style: solid;
+}
+
+.clicked {
+  border-style: dotted;
+  border-color: black;
+  background-image: url("../../assets/images/cardclicked.png");
+  background-size: 220px;
+  font-size: 60px;
+  padding-top: 63px;
+}
+
+.voteButton {
+  height: 40px;
+  width: auto;
+  margin-top: 50px;
+  border-color: white;
+  border-style: solid;
+}
+
+.buttonClicked {
+  background-color: red;
+  pointer-events: none;
+}
+
+.freezeCards {
+  pointer-events: none;
+}
+
+.newRound {
+  height: 40px;
+  margin-right: 50px;
+  cursor: pointer;
+}
+
+.user {
+  background-color: green;
+  width: 200px;
+  margin: 20px;
+  color: white;
+  padding-top: 10px;
+  padding-left: 10px;
+  font-size: 20px;
+}
+
+.name-label {
+  color: white;
+}
+
+.buttons {
+  margin-top: 50px;
+  display: inline-flex;
+}
